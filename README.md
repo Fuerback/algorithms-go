@@ -1,0 +1,2 @@
+# quicksort-go
+quicksort algorithm
