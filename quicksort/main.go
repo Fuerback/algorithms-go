@@ -40,7 +40,7 @@ func quicksort(numbers []int) []int {
 
 	// with copy list and refElement, we are going to partition in two lists, one with greatest numbers than reference and other with smallest numbers
 	smallest, greatest := partition(n, ref)
-	
+
 	// ordering the lists recursively and return
 	return append(
 		append(quicksort(smallest), ref),
